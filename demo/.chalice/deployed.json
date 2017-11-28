@@ -1,0 +1,17 @@
+{
+  "dev": {
+    "api_handler_name": "demo-dev",
+    "api_handler_arn": "arn:aws:lambda:us-east-1:254007559469:function:demo-dev",
+    "lambda_functions": {
+      "demo-dev-log_ip": {
+        "arn": "arn:aws:lambda:us-east-1:254007559469:function:demo-dev-log_ip",
+        "type": "scheduled_event"
+      }
+    },
+    "backend": "api",
+    "chalice_version": "1.0.3",
+    "rest_api_id": "4z7sy5gsk0",
+    "api_gateway_stage": "api",
+    "region": "us-east-1"
+  }
+}
